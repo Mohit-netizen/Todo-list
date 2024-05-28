@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+
+form input {
+  height: 40px;
+  flex-basis: 80%;
+}
+form button{
+  flex-basis: 20%;
+}
+
+.outerDive{
+  width: 1170px;
+  margin: auto;
+}
+.outerDive ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 50px;
+}
+.outerDive ul li {
+  color:white ;
+  padding: 10px;
+  background-color: black;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.outerDive ul li span {
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+
